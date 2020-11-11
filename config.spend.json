@@ -1,0 +1,62 @@
+{
+    "coreIp": "localhost",
+    "p2pPort": 4102,
+    "apiPort": 4103,
+    "webhookPort": 4104,
+    "jsonRpcPort": 8080,
+    "explorerIp": "0.0.0.0",
+    "explorerPort": 4200,
+    "chainName": "SpendChain",
+    "token": "SPND",
+    "databaseHost": "localhost",
+    "databasePort": "5432",
+    "databaseName": "core_spendchain",
+    "symbol": "S",
+    "mainnetPeers": ["127.0.0.1", "127.0.0.2", "127.0.0.3"],
+    "devnetPeers": ["44.238.55.18", "54.200.91.152", "44.241.115.39", "54.244.185.57", "44.231.242.50", "44.233.63.4"],
+    "mainnetPrefix": "S",
+    "devnetPrefix": "D",
+    "testnetPrefix": "T",
+    "fees": {
+        "static": {
+            "transfer": 10000000,
+            "vote": 100000000,
+            "secondSignature": 500000000,
+            "delegateRegistration": 2500000000,
+            "multiSignature": 500000000,
+            "ipfs": 500000000,
+            "multiPayment": 10000000,
+            "delegateResignation": 2500000000
+        },
+        "dynamic": {
+            "enabled": false,
+            "minFeePool": 3000,
+            "minFeeBroadcast": 3000,
+            "addonBytes": {
+                "transfer": 100,
+                "secondSignature": 250,
+                "delegateRegistration": 400000,
+                "vote": 100,
+                "multiSignature": 500,
+                "ipfs": 250,
+                "multiPayment": 500,
+                "delegateResignation": 400000
+            }
+        }
+    },
+    "forgers": 51,
+    "blocktime": 8,
+    "transactionsPerBlock": 50,
+    "totalPremine": 2100000000000000,
+    "rewardHeightStart": 75600,
+    "rewardPerBlock": 200000000,
+    "vendorFieldLength": 255,
+    "bridgechainPath": "$HOME/core-bridgechain",
+    "explorerPath": "$HOME/core-explorer",
+    "gitCoreCommit": true,
+    "gitCoreOrigin": "https://github.com/spendchain/core.git",
+    "gitExplorerCommit": true,
+    "gitExplorerOrigin": "https://github.com/spendchain/core.git",
+    "licenseName": "info",
+    "licenseEmail": "info@spend.com"
+}
