@@ -256,8 +256,10 @@ app_install_core()
 
     cp -R "$CONFIG_PATH_MAINNET/core" "$BRIDGECHAIN_PATH/packages/core/bin/config/mainnet"
     cp -R "$CONFIG_PATH_MAINNET/crypto" "$BRIDGECHAIN_PATH/packages/crypto/src/networks/mainnet"
+    cp "$CONFIG_PATH_MAINNET/delegates.json" "$BRIDGECHAIN_PATH/packages/core/bin/config/mainnet/"
     cp -R "$CONFIG_PATH_DEVNET/core" "$BRIDGECHAIN_PATH/packages/core/bin/config/devnet"
     cp -R "$CONFIG_PATH_DEVNET/crypto" "$BRIDGECHAIN_PATH/packages/crypto/src/networks/devnet"
+    cp "$CONFIG_PATH_DEVNET/delegates.json" "$BRIDGECHAIN_PATH/packages/core/bin/config/devnet/"
     cp -R "$CONFIG_PATH_TESTNET/core" "$BRIDGECHAIN_PATH/packages/core/bin/config/testnet"
     cp -R "$CONFIG_PATH_TESTNET/crypto" "$BRIDGECHAIN_PATH/packages/crypto/src/networks/testnet"
     cp "$CONFIG_PATH_TESTNET/delegates.json" "$BRIDGECHAIN_PATH/packages/core/bin/config/testnet/"
