@@ -1,8 +1,8 @@
-## ARK Deployer
+## Spendchain Deployer
 
-![ARK-DESKTOP](https://user-images.githubusercontent.com/8069294/53840292-a86c7a00-3f91-11e9-93a7-3777a786acf5.png)
+![Spendchain Deployer](https://user-images.githubusercontent.com/8069294/53840292-a86c7a00-3f91-11e9-93a7-3777a786acf5.png)
 
-> Lead Maintainer: [Michel Kraaijeveld](https://github.com/itsanametoo)
+> Lead Maintainer: [Alexandr Savitskiy](https://github.com/alexysav)
 
 ## Quick setup with Vagrant
 
@@ -11,7 +11,7 @@ You can deploy a bridgechain and explorer within its own virtual setup on your D
 1. Install Vagrant on your local computer
 2. Clone the ark-deployer from our repository
 ```bash
-git clone https://github.com/ArkEcosystem/deployer.git ark-deployer && cd ark-deployer
+git clone https://github.com/spendchain/deployer.git ark-deployer && cd ark-deployer
 ```
 3. Run the vagrant command
 ```bash
@@ -40,7 +40,7 @@ Follow this [full guide](https://blog.ark.io/ark-deployer-v2-55b96555d10e) to ge
 
 ```bash
 sudo apt-get update && sudo apt-get install -y git curl
-git clone https://github.com/ArkEcosystem/deployer.git ark-deployer && cd ark-deployer
+git clone https://github.com/spendchain/deployer.git ark-deployer && cd ark-deployer
 source setup.sh
 ```
 
